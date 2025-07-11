@@ -7,7 +7,7 @@ let songs;
 
 async function getsongs(){
 
-    let a =await fetch("http://127.0.0.1:3000/video%2084_Spotify/songs/");
+    let a =await fetch("songs/");
     let response = await a.text();
     // console.log(response); //tabular form mali je je jotu hoy e lai levi have 
 
