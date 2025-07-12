@@ -4,32 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>spotify-Web Player:Music for everyone</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/utility.css" />
   </head>
   <body>
     <div class="container flex bg-black">
       <div class="left">
         <div class="close invert">
-          <img src="close.svg" alt="" />
+          <img src="img/close.svg" alt="" />
         </div>
         <div class="home bg-gray rounded m-1 p-1">
           <div class="logo">
-            <img src="logo.svg" alt="" /> <span>Spotify</span>
+            <img src="img/logo.svg" alt="" /> <span>Spotify</span>
           </div>
           <ul>
-            <li><img class="invert" src="home.svg" alt="home" />Home</li>
-            <li><img class="invert" src="search.svg" alt="home" />Search</li>
+            <li><img class="invert" src="img/home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="img/search.svg" alt="home" />Search</li>
           </ul>
         </div>
 
         <div class="library bg-gray rounded m-1 p-1">
           <div class="heading">
-            <img class="invert" src="library.svg" alt="" />
+            <img class="invert" src="img/library.svg" alt="" />
             <h2>Your library</h2>
           </div>
           <div class="songList">
-            <ul></ul>
+            <ul>
+              
+            </ul>
           </div>
           <div class="footer">
             <div>
@@ -57,9 +59,9 @@
       <div class="right bg-gray rounded">
         <div class="header">
           <div class="nav hamburgercon">
-            <img class="invert hamburger" src="hamburger.svg" alt="" />
-            <img class="aero" src="left.svg" alt="" />
-            <img class="aero" src="right.svg" alt="" />
+            <img class="invert hamburger" src="img/hamburger.svg" alt="" />
+            <img class="aero" src="img/left.svg" alt="" />
+            <img class="aero" src="img/right.svg" alt="" />
           </div>
           <div class="buttons">
             <button class="signupbtn">Sign up</button>
@@ -70,67 +72,8 @@
         <div class="spotifyPlaylists">
           <h1>spotify Playlists</h1>
           <div class="cardContainer">
-            <div class="card">
-              <div class="play">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  height="24"
-                  fill="black"
-                >
-                  <circle
-                    cx="12"
-                    cy="12"
-                    r="10"
-                    stroke="black"
-                    stroke-width="1.5"
-                    fill="none"
-                  />
-                  <path
-                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
-                    fill="black"
-                  />
-                </svg>
-              </div>
-              <img
-                src="https://misc.scdn.co/liked-songs/liked-songs-640.jpg"
-                alt=""
-              />
-              <h2>Happy Hits!</h2>
-              <p>Hits to boots your mood and fill you with happiness!</p>
-            </div>
-
-            <div class="card">
-              <div class="play">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  height="24"
-                  fill="black"
-                >
-                  <circle
-                    cx="12"
-                    cy="12"
-                    r="10"
-                    stroke="black"
-                    stroke-width="1.5"
-                    fill="none"
-                  />
-                  <path
-                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
-                    fill="black"
-                  />
-                </svg>
-              </div>
-              <img
-                src="https://misc.scdn.co/liked-songs/liked-songs-640.jpg"
-                alt=""
-              />
-              <h2>Happy Hits!</h2>
-              <p>Hits to boots your mood and fill you with happiness!</p>
-            </div>
+            <!-- Cards will be dynamically inserted here -->
+            
           </div>
 
           <div class="playbar">
@@ -140,14 +83,14 @@
             <div class="abovebar">
               <div class="songinfo"></div>
               <div class="songbuttons">
-                <img id="previous" src="prevsong.svg" alt="" />
-                <img id="play" src="play.svg" alt="" />
-                <img id="next" src="nextsong.svg" alt="" />
+                <img id="previous" src="img/prevsong.svg" alt="" />
+                <img id="play" src="img/play.svg" alt="" />
+                <img id="next" src="img/nextsong.svg" alt="" />
               </div>
               <div class="timevol">
                 <div class="songtime"></div>
                 <div class="volume">
-                  <img class="volume-icon" src="volume.svg" alt="" />
+                  <img class="volume-icon" src="img/volume.svg" alt="" />
                   <div class="range">
                     <input class="volrange" type="range" name="volume">
                   </div>
@@ -159,6 +102,6 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="JS/script.js"></script>
   </body>
 </html>

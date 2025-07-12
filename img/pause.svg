@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35" fill="none">
+  <!-- Circle -->
+  <circle cx="12" cy="12" r="10" stroke="#141B34" stroke-width="1.5" />
+  
+  <!-- Left Pause Bar -->
+  <line x1="10" y1="8" x2="10" y2="16" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Right Pause Bar -->
+  <line x1="14" y1="8" x2="14" y2="16" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" />
+</svg>
