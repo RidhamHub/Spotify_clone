@@ -335,7 +335,7 @@ body{
 }
 
 
-@media (max-width : 1400px){
+@media (max-width : 400px){
     .left{
         /* background-color: red; */
         position: absolute;
